@@ -17,3 +17,9 @@ EXERCISE 2
 2. If an error occurs, display the message "SORRY - WE HAVE AN ERROR"
 
 3. Perform tests as before
+
+EXERCISE 3
+
+1. Add a except statement that will catch the FileNotFoundError error:
+
+2. For this specific error, display the message "Error opening file". You can add detailed information about the error
