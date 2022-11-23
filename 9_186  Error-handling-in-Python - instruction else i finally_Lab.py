@@ -12,5 +12,9 @@ try:
     print('The value saved in file is', value)
 except FileNotFoundError as e:
     print("Error opening file in %s " % filepath, e)
+except ValueError as e:
+    print("The value entered cannot be converted to a number.", line, e)
 except:
     print("SORRY - WE HAVE AN ERROR", sys.exc_info())
+else:
+    print("Actions completed successfully")
