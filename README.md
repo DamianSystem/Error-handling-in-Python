@@ -31,3 +31,13 @@ EXERCISE 4
 2. Display the information "The value saved in file is...."
 
 3. Test the program in several ways: a value that converts to a number or not, a path that exists or does not exist, etc.
+
+EXERCISE 5
+
+1. Add another except statement that handles the ValueError error that may be generated during the line to value conversion.
+
+2. For this error, display the message "The value entered cannot be converted to a number". You can view more details about the error
+
+3. Add an else block that displays the message "Actions completed successfully"
+
+4. Test the script by generating various errors
