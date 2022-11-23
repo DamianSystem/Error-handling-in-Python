@@ -7,7 +7,9 @@ try:
     line = input_user
     file = open(filepath, 'w')
     file.write(line)
+    value = int(line)
     file.close()
+    print('The value saved in file is', value)
 except FileNotFoundError as e:
     print("Error opening file in %s " % filepath, e)
 except:
