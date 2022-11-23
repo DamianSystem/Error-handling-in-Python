@@ -8,5 +8,7 @@ try:
     file = open(filepath, 'w')
     file.write(line)
     file.close()
+except FileNotFoundError as e:
+    print("Error opening file in %s " % filepath, e)
 except:
     print("SORRY - WE HAVE AN ERROR", sys.exc_info())
