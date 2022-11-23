@@ -23,3 +23,11 @@ EXERCISE 3
 1. Add a except statement that will catch the FileNotFoundError error:
 
 2. For this specific error, display the message "Error opening file". You can add detailed information about the error
+
+EXERCISE 4
+
+1. As the last statement in the try block, add the conversion of the value stored in the line variable to the int type. Remember the result in the value variable
+
+2. Display the information "The value saved in file is...."
+
+3. Test the program in several ways: a value that converts to a number or not, a path that exists or does not exist, etc.
